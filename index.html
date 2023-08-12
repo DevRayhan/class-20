@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- bootstrap link add -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- font awesome  cdn link add-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- custom css file link add -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- header  section  start -->
+    <header class="headerSection">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-1">
+                    <div class="menu-logo">
+                        <a href="#"><img src="./img/92-925298-blue-atom-transparent-background-uc-leads-clipart-removebg-preview.png" alt="logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <nav class="menu text-left">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">protfolio</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Dropdown1</a></li>
+                                        <li><a href="#">Dropdown2</a></li>
+                                        <li><a href="#">Dropdown3</a></li>
+                                        <li><a href="#">Dropdown4</a></li>
+                                        <li><a href="#">Dropdown5</a></li>
+                                        <li><a href="#">Dropdown6</a></li>
+                                        <li><a href="#">Dropdown7</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">My Resume</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="menu-search text-right">
+                        <input class="s-input" type="text" placeholder="Search">
+                        <button class="s-btn">Search</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
     
 </body>
 </html>
