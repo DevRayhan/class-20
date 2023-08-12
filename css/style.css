@@ -3,6 +3,7 @@
     list-style: none;
     text-transform: capitalize;
     transition: .7s;
+    outline: none;
 }
 a{
     text-decoration: none;
@@ -40,11 +41,11 @@ img{
     position: absolute;
     background-color: azure;
     text-align: center;
-    top: 100%;
+    top: 107%;
     left: 0;
     visibility: hidden;
     opacity: 0;
-    transform: rotateX(0deg);
+    transform:scaleY(0);
 }
 .dropdown li:hover{
     background-color: #badbdb;
@@ -53,7 +54,7 @@ img{
 .menu ul li:hover .dropdown{
     visibility: visible;
     opacity: 1;
-    transform: rotateX(360deg);
+    transform:scaleY(1);
 }
 .menu ul li:first-child a{
     color: black;
