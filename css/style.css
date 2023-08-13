@@ -4,3 +4,8 @@
     padding: 7px 17px;
     border-radius: 7px;
 }
+/* carousel Section    start */
+.carousel-item img{
+    height: 555px;
+    width: auto;
+}
