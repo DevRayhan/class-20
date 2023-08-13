@@ -1,5 +1,6 @@
-
-/* global css  */
-.headerSection img{
-    max-width: 47px;
+/* My-Breadcrumb section start */
+.breadcrumb {
+    background-color: #e9ecef;
+    padding: 7px 17px;
+    border-radius: 7px;
 }
